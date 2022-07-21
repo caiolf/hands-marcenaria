@@ -12,15 +12,15 @@ export default function SecaoServicos() {
           <div className="cardDeck flex-row">
             <Card
               label='Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
-              img='./assets/xadrez.jpg' imgAlt='Imagem'
+              img='./assets/default.png' imgAlt='Imagem'
             />
             <Card
               label='Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
-              img='./assets/xadrez.jpg' imgAlt='Imagem'
+              img='./assets/default.png' imgAlt='Imagem'
             />
             <Card
               label='Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'
-              img='./assets/xadrez.jpg' imgAlt='Imagem'
+              img='./assets/default.png' imgAlt='Imagem'
             />
           </div>
         </EstruturaSecao>

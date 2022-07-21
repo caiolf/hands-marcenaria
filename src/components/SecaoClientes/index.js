@@ -8,9 +8,9 @@ export default function SecaoClientes() {
     <section className="SecaoClientes flex">
       <EstruturaSecao titulo='CLIENTES'>
         <div className="clientes flex-row ">
-          <img src="./assets/xadrez.jpg" alt="CLIENTES" />
-          <img src="./assets/xadrez.jpg" alt="CLIENTES" />
-          <img src="./assets/xadrez.jpg" alt="CLIENTES" />
+          <img src="./assets/default.png" alt="CLIENTES" />
+          <img src="./assets/default.png" alt="CLIENTES" />
+          <img src="./assets/default.png" alt="CLIENTES" />
         </div>
       </EstruturaSecao>
     </section>
