@@ -1,8 +1,9 @@
 .SecaoIntro {
 	align-items: center;
 	justify-content: center;
+	margin: 20px 0;
 }
-.SecaoIntro div {
+.SecaoIntro .introducao {
 	margin: 10px;
 }
 

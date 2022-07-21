@@ -8,9 +8,7 @@ import Rodape from './components/Rodape';
 function App() {
   return (
     <div className="App">
-      <Topo />
       <Rotas />
-      <Rodape />
     </div>
   );
 }

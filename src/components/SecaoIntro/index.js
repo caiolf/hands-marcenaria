@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './style.css';
 
 import Botao from '../Botao';
@@ -7,7 +6,7 @@ import Botao from '../Botao';
 export default function SecaoIntro() {
   return (
     <section id='SecaoIntro' className="SecaoIntro flex">
-      <div className="limitar-div flex">
+      <div className="introducao limitar-div flex">
         <h1>Planejando seu espaço</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna
