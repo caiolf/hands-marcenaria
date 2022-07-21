@@ -1,0 +1,14 @@
+.SecaoClientes img {
+	width: 150px;
+	border-radius: 100%;
+	margin: 10px;
+}
+.SecaoClientes {
+	background-color: var(--color1);
+}
+.SecaoClientes h1 {
+	color: #fff;
+}
+.clientes {
+	padding-top: 30px;
+}

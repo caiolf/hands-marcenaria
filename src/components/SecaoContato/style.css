@@ -1,0 +1,54 @@
+.contato-div {
+	max-width: 550px;
+	width: 100%;
+}
+.SecaoContato h1,
+.SecaoContato label,
+.SecaoContato div {
+	color: #fff;
+}
+.SecaoContato {
+	background-image: url("../../../public/assets/xadrez.jpg");
+}
+
+.contato-box {
+	width: 100%;
+	background-color: var(--color1);
+	margin: 30px;
+	padding: 0 30px 30px 30px;
+	border-radius: 20px;
+}
+.enviar {
+	width: 100%;
+	padding: 5px;
+	margin: 10px 0;
+	border-radius: 20px;
+	background-color: #20262c;
+	color: #fff;
+}
+#nomeid,
+#emailid {
+	width: 46%;
+}
+.nome-email {
+	width: 100%;
+	justify-content: space-between;
+}
+
+textarea {
+	margin: 20px 0;
+	max-width: 100%;
+	min-width: 100%;
+	width: 100%;
+	min-height: 200px;
+	max-height: 200px;
+}
+#nomeid,
+#emailid,
+textarea {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+}

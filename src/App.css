@@ -6,19 +6,34 @@
 	--border3: 10px solid orange;
 	--border4: 10px solid purple;
 	--border5: 10px solid #fff;
+
+	--color0: #f6e8c3;
+	--color1: #212121;
+	--color2: #918565;
+	--color3: #ff0000;
+}
+.borda {
+	border: var(--border);
 }
 * {
 	box-sizing: border-box;
-	color: #252422;
+	color: var(--color1);
 }
 html {
 	font-size: 16px;
 }
+h1 {
+	font-family: "Righteous", cursive;
+	font-size: 1.6rem;
+	letter-spacing: 2px;
+}
+
 body,
 .App {
 	min-height: 100vh;
 	margin: 0;
 	padding: 0;
+	background-color: var(--color0);
 }
 .limitar-div {
 	max-width: 1024px;
@@ -29,4 +44,8 @@ body,
 }
 .flex-row {
 	display: flex;
+}
+.centralizar {
+	justify-content: center;
+	align-items: center;
 }

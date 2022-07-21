@@ -1,0 +1,46 @@
+.Card {
+	width: 250px;
+	height: 310px;
+	margin: 5px;
+	background: rgba(255, 227, 149, 0.42);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 20px;
+}
+
+.Card .blackBorder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 150px;
+	border: #212121 solid;
+	border-radius: 100%;
+	margin: 20px;
+	background-color: #fff;
+}
+.Card .redBorder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 140px;
+	height: 136px;
+	border: #ff0000 solid;
+	border-radius: 100%;
+	background-color: #fff;
+}
+.Card img {
+	width: 95%;
+	background-size: cover;
+	border-radius: 100%;
+}
+.cardLabel p {
+	color: #fff;
+	margin: 20px;
+}
+.cardLabel {
+	background-color: var(--color1);
+	border-radius: 0 0 20px 20px;
+}

@@ -1,0 +1,8 @@
+.SecaoImagens img {
+	margin: 5px;
+	width: 300px;
+	border-radius: 20px;
+}
+.imagens {
+	flex-wrap: wrap;
+}

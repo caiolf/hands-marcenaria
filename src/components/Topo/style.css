@@ -1,4 +1,25 @@
-.Topo {
-	height: 200px;
-	background-color: red;
+.capa {
+	height: 50vh;
+	background: url("../../../public/assets/xadrez.jpg");
+	justify-content: center;
+	align-items: center;
+}
+.capa img {
+	max-width: 300px;
+}
+.Topo nav {
+	align-items: center;
+	justify-content: space-between;
+	width: 50%;
+}
+.Topo a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.Topo .menu {
+	background-color: var(--color1);
+	height: 3rem;
+	justify-content: center;
+	align-items: center;
 }

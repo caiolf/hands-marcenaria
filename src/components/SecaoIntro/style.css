@@ -1,0 +1,13 @@
+.SecaoIntro {
+	align-items: center;
+	justify-content: center;
+}
+.SecaoIntro div {
+	margin: 10px;
+}
+
+.SecaoIntro p,
+.SecaoIntro h1 {
+	width: 50%;
+	margin: 10px;
+}
