@@ -1,0 +1,57 @@
+/* From uiverse.io by @alexmaracinaru */
+.Botao {
+	position: relative;
+	margin: auto;
+	padding: 12px 18px;
+	transition: all 0.2s ease;
+	border: none;
+	background: none;
+}
+
+.Botao:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	border-radius: 50px;
+	background: var(--color2);
+	width: 45px;
+	height: 45px;
+	transition: all 0.3s ease;
+}
+
+.Botao span {
+	position: relative;
+	font-weight: 700;
+	letter-spacing: 0.05rem;
+	color: var(--color1);
+}
+
+.Botao svg {
+	position: relative;
+	top: 0;
+	margin-left: 10px;
+	fill: none;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	stroke: var(--color1);
+	stroke-width: 2;
+	transform: translateX(-5px);
+	transition: all 0.3s ease;
+}
+.Botao:hover {
+	cursor: pointer;
+}
+.Botao:hover:before {
+	width: 100%;
+	background: var(--color2);
+}
+
+.Botao:hover svg {
+	transform: translateX(0);
+}
+
+.Botao:active {
+	transform: scale(0.95);
+}

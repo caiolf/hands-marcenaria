@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 
 import EstruturaSecao from '../EstruturaSecao';
+import Botao from '../Botao';
 
 
 export default function SecaoImagens() {
@@ -16,9 +17,9 @@ export default function SecaoImagens() {
           <img src="./assets/default.png" alt="" />
           <img src="./assets/default.png" alt="" />
         </div>
-        <div className="verMais">
+        <Botao>
           Ver mais
-        </div>
+        </Botao>
       </EstruturaSecao>
     </section>
   );
