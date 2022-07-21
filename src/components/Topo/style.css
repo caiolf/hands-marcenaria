@@ -10,6 +10,7 @@
 .Topo nav {
 	align-items: center;
 	justify-content: space-between;
+	max-width: 1024px;
 	width: 50%;
 }
 .Topo a {
