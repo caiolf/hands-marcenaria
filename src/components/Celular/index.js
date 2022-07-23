@@ -1,14 +1,16 @@
+
 import React from 'react';
-import './style.css';
+import styles from './index.module.css';
+import cx from 'classnames'
 
 export default function Celular(props) {
   return (
-    <div className="phone">
-      <div className="phone_mic"></div>
-      <div className="phone_screen">
+    <div className={styles.phone}>
+      <div className={styles.phone_mic}></div>
+      <div className={styles.phone_screen}>
         {props.children}
       </div>
-      <div className="phone_button"></div>
+      <div className={styles.phone_button}></div>
     </div>
   );
 }

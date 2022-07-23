@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
 import SecaoIntro from '../../components/SecaoIntro';
 import SecaoServicos from '../../components/SecaoServicos';
 import SecaoImagens from '../../components/SecaoImagens';
