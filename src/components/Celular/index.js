@@ -1,7 +1,6 @@
 
 import React from 'react';
 import styles from './index.module.css';
-import cx from 'classnames'
 
 export default function Celular(props) {
   return (

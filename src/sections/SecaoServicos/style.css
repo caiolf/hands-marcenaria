@@ -8,3 +8,10 @@
 .SecaoServicos h1 {
 	color: #fff;
 }
+
+@media (max-width: 480px) {
+	.cardDeck {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}

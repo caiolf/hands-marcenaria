@@ -1,10 +1,10 @@
-# HANDS - Marcenaria
+# ⚒ HANDS - Marcenaria ⚒
 
 Desenvolvendo site de uma marcenaria totalmente em react
 
-## Site
+## ✨ Site (em desenvolvimento)
 
-![notYet](https://static.wixstatic.com/media/ae0121_79d6d5c423e34d468906569e26d8e83f~mv2.gif)
+[hands-marcenaria.vercel.app](hands-marcenaria.vercel.app)
 
 ## 🔗 Links
 
@@ -12,7 +12,7 @@ Desenvolvendo site de uma marcenaria totalmente em react
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/ciaolf)
 [![instagram](https://img.shields.io/badge/instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/caio.lferraresi/)
 
-## Licença
+## 📜 Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
 

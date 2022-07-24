@@ -1,19 +1,18 @@
 import React from 'react';
-import SecaoIntro from '../../components/SecaoIntro';
-import SecaoServicos from '../../components/SecaoServicos';
-import SecaoImagens from '../../components/SecaoImagens';
-import SecaoClientes from '../../components/SecaoClientes';
-import SecaoFeedbacks from '../../components/SecaoFeedbacks';
-import SecaoContato from '../../components/SecaoContato';
+import SecaoIntro from '../../sections/SecaoIntro';
+import SecaoServicos from '../../sections/SecaoServicos';
+import SecaoImagens from '../../sections/SecaoImagens';
+import SecaoClientes from '../../sections/SecaoClientes';
+import SecaoFeedbacks from '../../sections/SecaoFeedbacks';
+import SecaoContato from '../../sections/SecaoContato';
 
-import EstruturaPagina from '../../components/EstruturaPagina';
+import EstruturaPagina from '../EstruturaPagina';
 
 
 export default function Home() {
 
   return (
     <EstruturaPagina>
-
       <SecaoIntro />
       <SecaoServicos />
       <SecaoImagens />

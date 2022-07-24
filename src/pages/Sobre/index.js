@@ -1,6 +1,6 @@
 import React from 'react';
-import SecaoIntro from '../../components/SecaoIntro';
-import EstruturaPagina from '../../components/EstruturaPagina';
+import SecaoIntro from '../../sections/SecaoIntro';
+import EstruturaPagina from '../EstruturaPagina';
 
 export default function Sobre() {
 

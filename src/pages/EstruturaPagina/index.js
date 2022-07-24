@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Topo from '../Topo';
-import Rodape from '../Rodape';
+import Topo from '../../components/Topo';
+import Rodape from '../../components/Rodape';
 
 export default function EstruturaPagina(props) {
   return (

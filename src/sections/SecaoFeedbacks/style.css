@@ -1,0 +1,9 @@
+.celulares {
+	width: 100%;
+	justify-content: space-around;
+}
+@media (max-width: 480px) {
+	.celulares {
+		flex-direction: column;
+	}
+}

@@ -12,3 +12,11 @@
 .clientes {
 	padding-top: 30px;
 }
+@media (max-width: 480px) {
+	.clientes {
+		flex-direction: column;
+	}
+	.SecaoClientes img {
+		width: 300px;
+	}
+}

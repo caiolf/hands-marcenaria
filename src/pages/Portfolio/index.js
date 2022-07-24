@@ -1,7 +1,7 @@
 import React from 'react';
 
-import SecaoImagens from '../../components/SecaoImagens';
-import EstruturaPagina from '../../components/EstruturaPagina';
+import SecaoImagens from '../../sections/SecaoImagens';
+import EstruturaPagina from '../EstruturaPagina';
 export default function Portfolio() {
 
   return (

@@ -4,6 +4,7 @@
 
 	z-index: 1;
 	width: 13rem;
+	min-width: 13rem;
 	height: 24rem;
 	padding: 0 0.5rem;
 	border: 0.25rem solid var(--black5);
@@ -13,10 +14,11 @@
 	background-color: #eaeaea;
 	box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
 	transition: all 0.3s;
+	margin: 10px;
 }
 .phone_mic {
 	height: 0.25rem;
-	width: 4rem;
+	width: 30%;
 	margin: 1rem auto;
 	border-radius: 999rem;
 	background-color: var(--black4);
@@ -46,4 +48,25 @@
 }
 .red p {
 	color: #fff;
+}
+
+@media (max-width: 480px) {
+	.phone {
+		--black5: #404040;
+		--black4: #505050;
+
+		z-index: 1;
+		width: 18rem;
+		min-width: 13rem;
+		height: 32rem;
+		padding: 0 0.5rem;
+		border: 0.25rem solid var(--black5);
+		border-radius: 1rem;
+		display: flex;
+		flex-direction: column;
+		background-color: #eaeaea;
+		box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+		transition: all 0.3s;
+		margin: 10px;
+	}
 }

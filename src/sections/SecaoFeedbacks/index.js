@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import Celular from '../Celular';
+import Celular from '../../components/Celular';
 import EstruturaSecao from '../EstruturaSecao';
 
 export default function SecaoFeedbacks() {
