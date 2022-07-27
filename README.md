@@ -4,7 +4,7 @@ Desenvolvendo site de uma marcenaria totalmente em react
 
 ## ✨ Site (em desenvolvimento)
 
-[hands-marcenaria.vercel.app](hands-marcenaria.vercel.app)
+[hands-marcenaria.vercel.app](https://hands-marcenaria.vercel.app/)
 
 ## 🔗 Links
 
