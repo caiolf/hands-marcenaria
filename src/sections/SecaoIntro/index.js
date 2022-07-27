@@ -19,7 +19,7 @@ export default function SecaoIntro() {
             deserunt mollit anim id est laborum.</p>
         </div>
         <div className='imgIntro'>
-          <img src="./assets/default.png" alt="IMAGEM" />
+          <img src="https://img.freepik.com/fotos-gratis/cortada-o-homem-vestindo-azul-global-mobiliario-de-desenho-na-folha-de-papel_1098-19104.jpg?w=826&t=st=1658843871~exp=1658844471~hmac=b28a5bf5f63afd4bb5652f181a79a171b278ccd3371ec3e9940900cbeeeb577e" alt="IMAGEM" />
         </div>
       </div>
       <Botao>Saiba mais</Botao>

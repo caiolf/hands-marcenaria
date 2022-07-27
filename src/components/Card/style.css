@@ -1,7 +1,9 @@
 .Card {
+	max-width: 350px;
+	max-height: 350px;
 	width: 250px;
-	height: 310px;
-	margin: 5px;
+	height: 100%;
+	margin: 10px;
 	background: rgba(255, 227, 149, 0.26);
 	display: flex;
 	flex-direction: column;
@@ -43,4 +45,16 @@
 .cardLabel {
 	background-color: var(--color1);
 	border-radius: 0 0 20px 20px;
+}
+@media (max-width: 480px) {
+	.Card {
+		margin-bottom: 150px;
+	}
+}
+@media (max-width: 768px) {
+	.Card {
+		width: 250px;
+		height: 310px;
+		margin: 10px;
+	}
 }

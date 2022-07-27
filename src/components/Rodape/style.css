@@ -1,6 +1,6 @@
 .Rodape {
 	height: 300px;
-	background-color: var(--color1);
+	background: url("../../../public/assets/chalkboard.jpg");
 	margin: 0;
 }
 .Rodape p,

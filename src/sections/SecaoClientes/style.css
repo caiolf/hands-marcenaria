@@ -4,7 +4,7 @@
 	margin: 10px;
 }
 .SecaoClientes {
-	background-color: var(--color1);
+	background: url("../../../public/assets/chalkboard.jpg");
 }
 .SecaoClientes h1 {
 	color: #fff;

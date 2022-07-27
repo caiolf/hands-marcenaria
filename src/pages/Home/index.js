@@ -7,8 +7,6 @@ import SecaoFeedbacks from '../../sections/SecaoFeedbacks';
 import SecaoContato from '../../sections/SecaoContato';
 
 import EstruturaPagina from '../EstruturaPagina';
-
-
 export default function Home() {
 
   return (

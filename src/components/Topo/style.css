@@ -5,13 +5,14 @@
 	align-items: center;
 }
 .capa img {
-	max-width: 300px;
+	height: 85%;
 }
 .Topo nav {
 	align-items: center;
 	justify-content: space-between;
-	max-width: 1024px;
-	width: 50%;
+	max-width: 500px;
+	width: 100%;
+	padding: 0 10px;
 }
 .Topo a {
 	color: #fff;

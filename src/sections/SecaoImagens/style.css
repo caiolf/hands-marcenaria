@@ -1,7 +1,14 @@
 .SecaoImagens img {
 	margin: 5px;
 	width: 300px;
+	height: 200px;
 	border-radius: 20px;
+	transform: scale(0.98);
+	transition: all 0.5s;
+}
+.SecaoImagens img:hover {
+	transform: scale(1.05);
+	cursor: pointer;
 }
 .imagens {
 	flex-wrap: wrap;

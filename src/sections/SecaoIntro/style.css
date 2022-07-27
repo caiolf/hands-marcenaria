@@ -21,6 +21,7 @@
 }
 .SecaoIntro img {
 	height: 100%;
+	border-radius: 59% 41% 32% 68% / 33% 30% 70% 67%;
 }
 @media (max-width: 480px) {
 	.imgIntro {
