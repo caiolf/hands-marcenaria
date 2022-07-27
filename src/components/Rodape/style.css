@@ -1,7 +1,10 @@
 .Rodape {
-	height: 300px;
+	height: 350px;
 	background: url("../../../public/assets/chalkboard.jpg");
 	margin: 0;
+}
+.Rodape .limitar-div {
+	width: 100%;
 }
 .Rodape p,
 .Rodape h2 {
@@ -11,10 +14,32 @@
 	width: 100%;
 	height: 100%;
 	justify-content: space-between;
+	padding-bottom: 25px;
 }
 .rodape-logo {
 	width: 250px;
 }
 .rodape-logo img {
 	width: 100%;
+}
+.rodape-midia div {
+	height: 25px;
+	padding: 20px 0;
+	justify-content: flex-start;
+}
+.rodape-midia div img {
+	width: 25px;
+}
+.rodape-midia div p {
+	padding-left: 10px;
+	text-decoration: none;
+	color: #fff;
+}
+p.copyright {
+	margin: 0;
+	text-align: center;
+	padding-top: 15px;
+	width: 100%;
+	color: rgb(177, 177, 177);
+	border-top: 0.5px solid rgba(255, 255, 255, 0.411);
 }

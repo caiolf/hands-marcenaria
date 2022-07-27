@@ -7,9 +7,10 @@
 	--border4: 10px solid purple;
 	--border5: 10px solid #fff;
 
+	--text-color: #212121;
 	--color0: #f6e8c3;
 	--color1: #212121;
-	--color2: #ffc62a;
+	--color2: #e77b23;
 	--color3: #ff0000;
 }
 ::-webkit-scrollbar-track {
@@ -36,7 +37,7 @@ h1,
 h2,
 h3,
 h4 {
-	color: var(--color1);
+	color: var(--text-color);
 }
 * {
 	box-sizing: border-box;

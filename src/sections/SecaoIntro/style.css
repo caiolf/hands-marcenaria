@@ -2,6 +2,7 @@
 	align-items: center;
 	justify-content: center;
 	padding: 30px 10px;
+	border-top: 10px solid var(--color2);
 }
 .SecaoIntro .introducao {
 	margin: 10px;
@@ -15,6 +16,7 @@
 .SecaoIntro p,
 .SecaoIntro h1 {
 	margin: 10px;
+	z-index: 1;
 }
 .imgIntro {
 	height: 300px;
@@ -23,6 +25,7 @@
 	height: 100%;
 	border-radius: 59% 41% 32% 68% / 33% 30% 70% 67%;
 }
+
 @media (max-width: 480px) {
 	.imgIntro {
 		display: none;
