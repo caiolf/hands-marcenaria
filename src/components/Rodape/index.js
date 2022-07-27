@@ -19,15 +19,20 @@ export default function Rodape() {
           </div>
           <div className="rodape-midia">
             <h2>Siga-nos nas redes sociais</h2>
-            <a href="https://www.instagram.com/handsmoveisplanejados_/?hl=pt-br" target='_blank'><div className='flex-row centralizar'><img src="https://cdn-icons.flaticon.com/png/512/3955/premium/3955024.png?token=exp=1658950094~hmac=c9b68812233dcd1d607b2aa00d8f1725" alt="IG" /><p>Instagram</p></div></a>
-            <a href="https://www.facebook.com/handsmoveis" target='_blank'><div className='flex-row centralizar'><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="FB" /><p>Facebook</p></div></a>
-            <a href="https://http.cat/404" target='_blank'><div className='flex-row centralizar'><img src="https://cdn-icons-png.flaticon.com/512/145/145808.png" alt="PI" /><p>Pintrest</p></div></a>
-            <a href="https://http.cat/404" target='_blank'><div className='flex-row centralizar'><img src="https://cdn-icons-png.flaticon.com/512/2913/2913990.png" alt="GM" /><p>Gmail</p></div></a>
+            <nav>
+              <a href="https://www.instagram.com/handsmoveisplanejados_/?hl=pt-br" target='_blank'><div className='flex-row centralizar'><img src="https://cdn-icons.flaticon.com/png/512/4138/premium/4138124.png?token=exp=1658953506~hmac=77a0a6f4e066a22cacc225fc33baec60" alt="IG" />Instagram</div></a>
+              <a href="https://www.facebook.com/handsmoveis" target='_blank'><div className='flex-row centralizar'><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="FB" />Facebook</div></a>
+              <a href="https://http.cat/404" target='_blank'><div className='flex-row centralizar'><img src="https://cdn-icons-png.flaticon.com/512/145/145808.png" alt="PI" />Pintrest</div></a>
+              <a href="https://http.cat/404" target='_blank'><div className='flex-row centralizar'><img src="https://cdn-icons-png.flaticon.com/512/2913/2913990.png" alt="GM" />Gmail</div></a>
+            </nav>
           </div>
         </div>
-        <p className='copyright'>Copyright © 2022 HANDS Marcenaria | Todos os direitos reservados. | Desenvolvimento | TIGON</p>
+        <p className='copyright'>
+          Copyright © 2022 HANDS Marcenaria | Todos os direitos reservados. | Desenvolvimento |
+          <a href="https://caiolf.github.io/Projeto-Linktree/" target='_blank'> @caiolf</a>
+        </p>
       </div>
 
-    </div>
+    </div >
   );
 }

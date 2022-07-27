@@ -15,7 +15,8 @@
 	align-items: center;
 }
 .capa img {
-	height: 85%;
+	max-width: 50vh;
+	width: 100%;
 }
 .Topo nav {
 	align-items: center;

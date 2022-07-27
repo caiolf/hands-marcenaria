@@ -5,7 +5,7 @@ import './style.css';
 const Topo = () => (
   <div id='Topo' className="Topo">
     <div className="capa flex">
-      <img src="./assets/logo.svg" alt="Logo HANDS" />
+      <Link to='/'><img src="./assets/logo.svg" alt="Logo HANDS" /></Link>
     </div>
     <div className="menu flex">
       <nav className='flex-row limitar-div'>
