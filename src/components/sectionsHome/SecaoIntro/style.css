@@ -2,7 +2,6 @@
 	align-items: center;
 	justify-content: center;
 	padding: 30px 10px;
-	border-top: 10px solid var(--color2);
 }
 .SecaoIntro .introducao {
 	margin: 10px;

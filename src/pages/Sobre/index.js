@@ -1,12 +1,17 @@
 import React from 'react';
-import SecaoIntro from '../../sections/SecaoIntro';
-import EstruturaPagina from '../EstruturaPagina';
+import SecaoIntro from '../../components/sectionsHome/SecaoIntro';
+import EstruturaPagina from '../../components/EstruturaPagina';
+import { Helmet } from 'react-helmet';
 
 export default function Sobre() {
 
   return (
-    <EstruturaPagina className='Sobre'>
-      <SecaoIntro />
-    </EstruturaPagina >
+    <>
+      <Helmet><title>HANDS - Sobre</title></Helmet>
+      <EstruturaPagina className='Sobre'>
+        <SecaoIntro />
+      </EstruturaPagina >
+    </>
+
   )
 };

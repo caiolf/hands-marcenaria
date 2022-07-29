@@ -3,13 +3,15 @@
 	width: 100%;
 	text-align: center;
 }
+
 .SecaoContato h1,
 .SecaoContato label,
 .SecaoContato div {
 	color: #fff;
 }
+
 .SecaoContato {
-	background-image: url("../../../public/assets/cozinha.svg");
+	background-image: url("../../../../public/assets/cozinha.svg");
 	background-size: cover;
 	background-position: 10px;
 }
@@ -21,6 +23,7 @@
 	padding: 0 30px 30px 30px;
 	border-radius: 20px;
 }
+
 .enviar {
 	width: 100%;
 	padding: 5px;
@@ -29,10 +32,12 @@
 	background-color: #20262c;
 	color: #fff;
 }
+
 #nomeid,
 #emailid {
 	width: 46%;
 }
+
 .nome-email {
 	width: 100%;
 	justify-content: space-between;
@@ -46,6 +51,7 @@ textarea {
 	min-height: 200px;
 	max-height: 200px;
 }
+
 #nomeid,
 #emailid,
 textarea {
@@ -68,14 +74,17 @@ textarea {
 	.contato-div {
 		width: 90%;
 	}
+
 	.nome-email {
 		width: 100%;
 		flex-direction: column;
 	}
+
 	#nomeid,
 	#emailid {
 		width: 100%;
 	}
+
 	#nomeid {
 		margin-bottom: 20px;
 	}

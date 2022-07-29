@@ -1,0 +1,31 @@
+:root {
+	--estilo-borda: 5px solid;
+	--border0: var(--estilo-borda) #000;
+	--border: var(--estilo-borda) red;
+	--border1: var(--estilo-borda) blue;
+	--border2: var(--estilo-borda) green;
+	--border3: var(--estilo-borda) orange;
+	--border4: var(--estilo-borda) purple;
+	--border5: var(--estilo-borda) #fff;
+}
+.borda0 {
+	border: var(--border0);
+}
+.borda {
+	border: var(--border);
+}
+.borda1 {
+	border: var(--border1);
+}
+.borda2 {
+	border: var(--border2);
+}
+.borda3 {
+	border: var(--border3);
+}
+.borda4 {
+	border: var(--border4);
+}
+.borda5 {
+	border: var(--border5);
+}

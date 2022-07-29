@@ -8,8 +8,8 @@
 		#cd7822 100%
 		);
 	*/
-	background-image: url("../../../public/assets/colorful-and-abstract-psychedelic-background-concept-of-psychedelic-design.jpg");
-	background-position: center;
+	background-image: url("https://img.freepik.com/fotos-gratis/tampo-da-mesa-de-madeira-no-balcao-da-cozinha-de-borrao-renderizacao-3d_41470-3538.jpg?w=1060&t=st=1659110669~exp=1659111269~hmac=39bd90b60d3a962e8b9e8e5864077c2fad973af692b18a718c66c15145d262e0");
+	background-position-y: 80%;
 	background-size: cover;
 	justify-content: center;
 	align-items: center;
@@ -27,8 +27,10 @@
 }
 .Topo a {
 	color: #fff;
+	padding: 13.5px 15px;
 	text-decoration: none;
 	text-transform: uppercase;
+	transition: 0.2s ease;
 }
 .Topo .menu {
 	background-color: var(--color1);
@@ -38,13 +40,9 @@
 }
 .link-nav {
 	padding: 7px;
-	transition: 0.2s ease;
 	border-radius: 20px;
 	font-weight: 700;
 }
-.link-nav:hover {
+.link-nav:hover a {
 	background-color: var(--color2);
-}
-.link-nav:hover * {
-	color: var(--color1);
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 
-import Botao from '../../components/Botao';
+import Botao from '../../Botao';
 
 export default function SecaoIntro() {
   return (

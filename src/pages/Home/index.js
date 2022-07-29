@@ -1,22 +1,29 @@
 import React from 'react';
-import SecaoIntro from '../../sections/SecaoIntro';
-import SecaoServicos from '../../sections/SecaoServicos';
-import SecaoImagens from '../../sections/SecaoImagens';
-import SecaoClientes from '../../sections/SecaoClientes';
-import SecaoFeedbacks from '../../sections/SecaoFeedbacks';
-import SecaoContato from '../../sections/SecaoContato';
+import { Helmet } from 'react-helmet';
 
-import EstruturaPagina from '../EstruturaPagina';
+import SecaoIntro from '../../components/sectionsHome/SecaoIntro';
+import SecaoServicos from '../../components/sectionsHome/SecaoServicos';
+import SecaoImagens from '../../components/sectionsHome/SecaoImagens';
+import SecaoClientes from '../../components/sectionsHome/SecaoClientes';
+import SecaoFeedbacks from '../../components/sectionsHome/SecaoFeedbacks';
+import SecaoContato from '../../components/sectionsHome/SecaoContato';
+
+import EstruturaPagina from '../../components/EstruturaPagina';
 export default function Home() {
 
   return (
-    <EstruturaPagina>
-      <SecaoIntro />
-      <SecaoServicos />
-      <SecaoImagens />
-      <SecaoClientes />
-      <SecaoFeedbacks />
-      <SecaoContato />
-    </EstruturaPagina >
+    <>
+      <Helmet>
+        <title>Hands marcenaria - Florianópolis</title>
+      </Helmet>
+      <EstruturaPagina>
+        <SecaoIntro />
+        <SecaoServicos />
+        <SecaoImagens />
+        <SecaoClientes />
+        <SecaoFeedbacks />
+        <SecaoContato />
+      </EstruturaPagina >
+    </>
   )
 };

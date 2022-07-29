@@ -2,7 +2,7 @@ import React from 'react';
 import './style.css';
 
 import EstruturaSecao from '../EstruturaSecao';
-import Botao from '../../components/Botao';
+import Botao from '../../Botao';
 import { Link } from 'react-router-dom';
 
 

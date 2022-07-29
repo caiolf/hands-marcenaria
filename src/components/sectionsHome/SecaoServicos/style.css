@@ -1,0 +1,11 @@
+.SecaoServicos {
+	background-image: url("https://img.freepik.com/fotos-gratis/parede-preta-com-uma-fileira-de-holofotes-em-uma-sala-vazia_53876-146509.jpg?w=826&t=st=1659112281~exp=1659112881~hmac=b5f05e22df2869ca2af4b1784cf7522fc47a2fc53011a0e6ddfc99d8fd19eabe");
+	background-size: cover;
+}
+.SecaoServicos h1 {
+	color: #fff;
+}
+.cardDeck {
+	flex-wrap: wrap;
+	justify-content: center;
+}

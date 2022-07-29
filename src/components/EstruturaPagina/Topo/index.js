@@ -11,7 +11,7 @@ const Topo = () => (
       <nav className='flex-row limitar-div'>
         <div className="link-nav"><Link to='/'>Home</Link></div>
         <div className="link-nav"><Link to='/sobre'>Sobre</Link></div>
-        <div className="link-nav"><Link to='/portfolio'>Portifólio</Link></div>
+        <div className="link-nav"><Link to='/projetos'>Projetos</Link></div>
         <div className="link-nav"><Link to="/contato">Contato</Link></div>
 
 

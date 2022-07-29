@@ -1,0 +1,17 @@
+.limitar-div {
+	max-width: 1024px;
+}
+.flex {
+	display: flex;
+	flex-direction: column;
+}
+.flex-row {
+	display: flex;
+}
+.wrap {
+	flex-wrap: wrap;
+}
+.centralizar {
+	justify-content: center;
+	align-items: center;
+}

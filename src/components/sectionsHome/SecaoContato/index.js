@@ -4,7 +4,7 @@ import './style.css';
 
 export default function SecaoContato() {
   return (
-    <section id='SecaoContato' className='SecaoContato flex centralizar '>
+    <section id='SecaoContato' className='SecaoContato flex centralizar'>
       <div className="filtro">
         <div className="contato-div limitar-div flex centralizar">
           <form name="meu-form" className='flex contato-box centralizar'>

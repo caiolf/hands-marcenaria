@@ -1,9 +1,8 @@
 import React from 'react';
 import './style.css';
 
-import Celular from '../../components/Celular';
+import Celular from '../../Celular';
 import EstruturaSecao from '../EstruturaSecao';
-import ChatBallon from '../../components/ChatBallon';
 
 export default function SecaoFeedbacks() {
   return (
