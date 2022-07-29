@@ -7,8 +7,7 @@ export default function Contato() {
 
   return (
     <>
-      <Helmet><title>HANDS - Contato</title></Helmet>
-      <EstruturaPagina>
+      <EstruturaPagina title='Hands Móveis | Contato'>
         <h1>CONTATO</h1>
         <SecaoContato />
       </EstruturaPagina >

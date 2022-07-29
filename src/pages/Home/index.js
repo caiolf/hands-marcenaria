@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 
 import SecaoIntro from '../../components/sectionsHome/SecaoIntro';
 import SecaoServicos from '../../components/sectionsHome/SecaoServicos';
@@ -13,10 +12,7 @@ export default function Home() {
 
   return (
     <>
-      <Helmet>
-        <title>Hands marcenaria - Florianópolis</title>
-      </Helmet>
-      <EstruturaPagina>
+      <EstruturaPagina title='Hands Móveis | Móveis Planejados'>
         <SecaoIntro />
         <SecaoServicos />
         <SecaoImagens />
