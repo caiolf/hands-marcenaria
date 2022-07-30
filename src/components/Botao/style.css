@@ -40,9 +40,11 @@
 	transform: translateX(-5px);
 	transition: all 0.3s ease;
 }
+
 .Botao:hover {
 	cursor: pointer;
 }
+
 .Botao:hover:before {
 	width: 100%;
 	background: rgb(253, 116, 116);
@@ -54,4 +56,16 @@
 
 .Botao:active {
 	transform: scale(0.95);
+}
+
+
+@media (max-width: 768px) {
+	.Botao {
+		display: flex;
+		align-items: center;
+	}
+
+	.Botao:before {
+		top: 6px;
+	}
 }

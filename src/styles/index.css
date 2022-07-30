@@ -1,16 +1,19 @@
 :root {
 	--text-color: #212121;
-	--color0: #ebf2eb;
+	--color0: #F0F4EF;
 	--color1: #212121;
 	--color2: #db4048;
 	--color3: #ff0000;
 }
+
 * {
 	box-sizing: border-box;
 }
+
 html {
 	font-size: 16px;
 }
+
 body {
 	margin: 0;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
@@ -21,6 +24,7 @@ body {
 	min-height: 100vh;
 	background-color: var(--color0);
 }
+
 p,
 a,
 h1,
@@ -29,6 +33,7 @@ h3,
 h4 {
 	color: var(--text-color);
 }
+
 h1 {
 	font-family: "Righteous", cursive;
 	font-size: 1.6rem;
@@ -37,6 +42,6 @@ h1 {
 
 @media (max-width: 768px) {
 	html {
-		font-size: 22px;
+		font-size: 24px;
 	}
 }

@@ -1,6 +1,6 @@
 .Card {
-	max-width: 350px;
-	max-height: 350px;
+	max-width: 370px;
+	max-height: 500px;
 	width: 250px;
 	height: 100%;
 	margin: 10px;
@@ -10,6 +10,7 @@
 	justify-content: space-between;
 	align-items: center;
 	border-radius: 20px;
+	overflow: hidden;
 }
 
 .Card .blackBorder {
@@ -23,6 +24,7 @@
 	margin: 20px;
 	background-color: #fff;
 }
+
 .Card .redBorder {
 	display: flex;
 	justify-content: center;
@@ -33,28 +35,33 @@
 	border-radius: 100%;
 	background-color: #fff;
 }
+
 .Card img {
 	width: 95%;
 	background-size: cover;
 	border-radius: 100%;
 }
+
 .cardLabel p {
 	color: #fff;
 	margin: 20px;
 }
+
 .cardLabel {
 	background-color: var(--color1);
 	border-radius: 0 0 20px 20px;
 }
+
 @media (max-width: 480px) {
 	.Card {
 		margin-bottom: 150px;
 	}
 }
+
 @media (max-width: 768px) {
 	.Card {
-		width: 250px;
-		height: 310px;
+		width: 280px;
+		height: 380px;
 		margin: 10px;
 	}
 }

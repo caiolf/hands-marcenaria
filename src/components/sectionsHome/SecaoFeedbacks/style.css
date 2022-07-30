@@ -1,9 +1,17 @@
 .celulares {
 	width: 100%;
 	justify-content: space-around;
+
 }
-@media (max-width: 480px) {
+
+@media (max-width: 768px) {
 	.celulares {
-		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	@media (max-width: 480px) {
+		.celulares {
+			flex-direction: column;
+		}
 	}
 }

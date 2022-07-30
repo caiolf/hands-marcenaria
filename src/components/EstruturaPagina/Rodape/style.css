@@ -1,5 +1,7 @@
 .Rodape {
-	height: 350px;
+	min-width: 375px;
+	max-height: 1000px;
+	min-height: 350px;
 	background: #191919;
 	margin: 0;
 }
@@ -22,6 +24,7 @@
 
 .rodape-logo {
 	width: 250px;
+	margin-right: 40px;
 }
 
 .rodape-logo img {
@@ -56,4 +59,39 @@ p.copyright {
 
 p.copyright a {
 	color: rgb(163, 163, 163);
+}
+
+
+@media (max-width: 768px) {
+	.Rodape {
+		height: 550px;
+	}
+
+	.rodape-logo {
+		width: 200px;
+	}
+
+	.Rodape h2 {
+		font-size: 30px;
+	}
+
+	.rodape-midia {
+		margin-left: 30px;
+	}
+
+	.rodape-div {
+		padding: 0 20px 20px 20px;
+	}
+
+	@media (max-width: 480px) {
+		.Rodape {
+			height: 550px;
+		}
+
+		.rodape-logo {
+			display: none;
+		}
+
+
+	}
 }

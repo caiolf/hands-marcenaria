@@ -4,10 +4,10 @@ import './style.css';
 
 export default function Rodape() {
   return (
-    <div id='Rodape' className="Rodape flex centralizar">
+    <footer id='Rodape' className="Rodape flex centralizar">
       <div className="limitar-div flex">
         <div className="rodape-div flex-row">
-          <div className="rodape-logo flex">
+          <div className="rodape-logo flex centralizar">
             <img src="./assets/logo.svg" alt="" />
           </div>
           <div className="rodape-menu">
@@ -33,6 +33,6 @@ export default function Rodape() {
         </p>
       </div>
 
-    </div >
+    </footer >
   );
 }

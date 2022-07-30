@@ -3,11 +3,13 @@
 	justify-content: center;
 	padding: 30px 10px;
 }
+
 .SecaoIntro .introducao {
 	margin: 10px;
 	min-width: 40%;
 	width: 40%;
 }
+
 .SecaoIntro .flex-row {
 	justify-content: space-between;
 }
@@ -15,11 +17,12 @@
 .SecaoIntro p,
 .SecaoIntro h1 {
 	margin: 10px;
-	z-index: 1;
 }
+
 .imgIntro {
 	height: 300px;
 }
+
 .SecaoIntro img {
 	height: 100%;
 	border-radius: 59% 41% 32% 68% / 33% 30% 70% 67%;
@@ -29,6 +32,7 @@
 	.imgIntro {
 		display: none;
 	}
+
 	.SecaoIntro .introducao {
 		margin: 10px;
 		min-width: 40%;
