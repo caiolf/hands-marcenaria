@@ -41,7 +41,7 @@
 	transition: all 0.3s ease;
 }
 
-.Botao:hover {
+.Botao span:hover {
 	cursor: pointer;
 }
 

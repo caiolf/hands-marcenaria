@@ -1,0 +1,71 @@
+.Topo {
+	.capa {
+		height: 50vh;
+		/*background-image: url("https://img.freepik.com/fotos-gratis/tampo-da-mesa-de-madeira-no-balcao-da-cozinha-de-borrao-renderizacao-3d_41470-3538.jpg?w=1060&t=st=1659110669~exp=1659111269~hmac=39bd90b60d3a962e8b9e8e5864077c2fad973af692b18a718c66c15145d262e0");*/
+		/*background-position-y: 80%;*/
+		background-image: url("../../../../public/assets/poster.png");
+		background-position: center;
+		background-position-x: 0;
+		background-size: cover;
+		justify-content: center;
+		align-items: center;
+		img {
+			display: none;
+			max-width: 50vh;
+			width: 100%;
+		}
+	}
+
+	.menu {
+		background-color: var(--color1);
+		height: 3rem;
+		justify-content: center;
+		align-items: center;
+		nav {
+			align-items: center;
+			justify-content: space-between;
+			max-width: 500px;
+			width: 100%;
+			padding: 0 10px;
+			.link-nav {
+				padding: 7px;
+				border-radius: 20px;
+				font-weight: 700;
+			}
+			a {
+				color: #fff;
+				padding: 13.5px 15px;
+				text-decoration: none;
+				text-transform: uppercase;
+				transition: 0.2s ease;
+			}
+			.link-nav:hover a {
+				background-color: var(--color2);
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	@media (max-width: 480px) {
+		.capa {
+			height: 50vh;
+			background-position-x: 100%;
+		}
+
+		.capa img {
+			display: block;
+			max-width: 50vh;
+			width: 100%;
+		}
+
+		.Topo .menu {
+			height: 6rem;
+		}
+
+		.Topo nav {
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+	}
+}
