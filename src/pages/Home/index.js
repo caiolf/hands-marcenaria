@@ -11,15 +11,13 @@ import EstruturaPagina from '../../components/EstruturaPagina';
 export default function Home() {
 
   return (
-    <>
-      <EstruturaPagina title='Hands Móveis | Móveis Planejados'>
-        <SecaoIntro />
-        <SecaoServicos />
-        <SecaoImagens />
-        <SecaoClientes />
-        <SecaoFeedbacks />
-        <SecaoContato />
-      </EstruturaPagina >
-    </>
+    <EstruturaPagina title='Hands Móveis | Móveis Planejados'>
+      <SecaoIntro />
+      <SecaoServicos />
+      <SecaoImagens />
+      <SecaoClientes />
+      <SecaoFeedbacks />
+      <SecaoContato />
+    </EstruturaPagina >
   )
 };

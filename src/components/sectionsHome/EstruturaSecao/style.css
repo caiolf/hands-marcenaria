@@ -2,7 +2,8 @@
 	text-align: center;
 	margin-top: 0;
 }
-.container {
+
+.EstruturaSecao .container {
 	width: 100%;
 	padding: 50px 10px;
 }

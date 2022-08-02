@@ -1,21 +1,27 @@
 import React from 'react';
-import './styles.css'
+import './index.scss'
 
-import ConjuntoImagem from './ConjuntoImagens';
+import { Link } from 'react-router-dom';
 import EstruturaPagina from '../../components/EstruturaPagina';
+import cx from 'classnames';
+
+
+
 export default function Projetos() {
 
   return (
-    <>
-      <EstruturaPagina title='Hands Móveis | Projetos'>
-        <section className="galeria flex centralizar">
-          <div className='galeria-div limitar-div flex-row wrap centralizar'>
-            <ConjuntoImagem className='imgs' />
-          </div>
-        </section>
-
-      </EstruturaPagina >
-    </>
-
+    <EstruturaPagina title='Hands Móveis | Projetos'>
+      <div id='Projetos' className="centralizar flex">
+        <nav className="container centralizar flex-row wrap">
+          {['banheiro', 'cozinha', 'quarto'].map((ambiente) => {
+            return (
+              <div className={cx(ambiente, 'ambiente', 'centralizar', 'flex')}>
+                <Link to={`/projetos/${ambiente}`}>{ambiente.toUpperCase()}</Link>
+              </div>
+            )
+          })}
+        </nav>
+      </div>
+    </EstruturaPagina >
   )
 };
