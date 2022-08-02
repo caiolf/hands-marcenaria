@@ -49,14 +49,12 @@
 @media (max-width: 768px) {
 	@media (max-width: 480px) {
 		.capa {
-			height: 50vh;
 			background-position-x: 100%;
-		}
-
-		.capa img {
-			display: block;
-			max-width: 50vh;
-			width: 100%;
+			img {
+				display: block;
+				max-width: 50vh;
+				width: 100%;
+			}
 		}
 
 		.Topo .menu {
