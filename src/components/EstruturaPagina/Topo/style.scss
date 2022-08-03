@@ -15,6 +15,12 @@
 			width: 100%;
 		}
 	}
+	.selecionado {
+		background-color: var(--color2);
+	}
+	.naoSelecionado {
+		background-color: none;
+	}
 
 	.menu {
 		background-color: var(--color1);
@@ -45,11 +51,11 @@
 @media (max-width: 768px) {
 	@media (max-width: 480px) {
 		.capa {
-			background-position-x: 100%;
+			background-position-x: 100% !important;
 			img {
-				display: block;
-				max-width: 50vh;
-				width: 100%;
+				display: block !important;
+				max-width: 50vh !important;
+				width: 100% !important;
 			}
 		}
 

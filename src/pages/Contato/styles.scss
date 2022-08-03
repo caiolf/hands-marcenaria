@@ -6,4 +6,23 @@
 	span {
 		color: var(--color2);
 	}
+	h1 {
+		text-align: center;
+	}
+}
+
+@media (max-width: 768px) {
+	#Contato {
+		h1 {
+			width: 500px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		#Contato {
+			h1 {
+				width: 400px;
+			}
+		}
+	}
 }

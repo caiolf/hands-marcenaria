@@ -11,7 +11,7 @@ export default function Sobre() {
         <main id='Sobre' className='centralizar flex'>
 
           <div className="container limitar-div centralizar flex">
-            <h1>Móveis <span>planejados</span> e <u>design de interiores</u></h1>
+            <h1>Móveis <span>planejados</span> e design de interiores</h1>
             <section className='flex-row'>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna
