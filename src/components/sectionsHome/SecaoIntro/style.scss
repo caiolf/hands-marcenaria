@@ -1,0 +1,41 @@
+.SecaoIntro {
+	align-items: center;
+	justify-content: center;
+	padding: 30px 10px;
+
+	.introducao {
+		margin: 10px;
+		min-width: 40%;
+		width: 40%;
+	}
+
+	.flex-row {
+		justify-content: space-between;
+	}
+	p,
+	h1 {
+		margin: 10px;
+	}
+	.imgIntro {
+		height: 300px;
+	}
+	img {
+		height: 100%;
+		border-radius: 59% 41% 32% 68% / 33% 30% 70% 67%;
+	}
+	span {
+		color: var(--color2);
+	}
+}
+
+@media (max-width: 480px) {
+	.imgIntro {
+		display: none;
+	}
+
+	.SecaoIntro .introducao {
+		margin: 10px;
+		min-width: 40%;
+		width: 100%;
+	}
+}

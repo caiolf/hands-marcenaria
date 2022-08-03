@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 export default function SecaoImagens() {
   return (
     <section id='SecaoImagens' className='SecaoImagens flex'>
-      <EstruturaSecao titulo='IMAGENS'>
+      <EstruturaSecao titulo='Projetos'>
         <div className="imagens flex-row centralizar">
           <img src="https://img.freepik.com/fotos-gratis/design-de-interiores-de-cozinha-com-moveis-de-madeira_23-2148848699.jpg?w=826&t=st=1658846163~exp=1658846763~hmac=95ad33bb001278066c4af5691116fd9c0b593861fa7b44c3d3bbbbd93277fa29" alt="" />
           <img src="https://img.freepik.com/fotos-premium/cozinha-de-design-moderno-com-luz-ambiental_23-2148291583.jpg?w=826" alt="" />

@@ -8,7 +8,7 @@ export default function Rodape() {
       <div className="limitar-div flex">
         <div className="rodape-div flex-row">
           <div className="rodape-logo flex centralizar">
-            <img src="./assets/logo.svg" alt="" />
+            <img src="../assets/logo.svg" alt="" />
           </div>
           <div className="rodape-menu">
             <h2>Navegação</h2>

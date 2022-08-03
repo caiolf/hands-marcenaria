@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import './styles/index.css';
+import './styles/index.scss';
 import './styles/scrollbar.css';
 import './styles/snippets.css';
 import './styles/tests.css';

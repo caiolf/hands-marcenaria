@@ -7,7 +7,7 @@ import EstruturaSecao from '../EstruturaSecao';
 export default function SecaoServicos() {
   return (
     <section id='SecaoServicos' className='SecaoServicos flex'>
-      <EstruturaSecao titulo='NOSSOS SERVIÇOS'>
+      <EstruturaSecao titulo='Nossos serviços'>
         <div className="cardDeck flex-row">
           <Card
             label='Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.'

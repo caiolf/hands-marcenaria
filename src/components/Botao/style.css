@@ -2,10 +2,14 @@
 .Botao {
 	position: relative;
 	margin: 20px;
-	padding: 12px 18px;
+	padding: 8px 18px;
 	transition: all 0.2s ease;
 	border: none;
 	background: none;
+}
+
+.Botao a {
+	text-decoration: none;
 }
 
 .Botao:before {

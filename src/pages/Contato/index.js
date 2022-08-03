@@ -1,15 +1,20 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
+import './styles.scss'
 
-import SecaoContato from '../../components/sectionsHome/SecaoContato'
+import Formulario from '../../components/Formulario';
 import EstruturaPagina from '../../components/EstruturaPagina';
 export default function Contato() {
 
   return (
     <>
       <EstruturaPagina title='Hands Móveis | Contato'>
-        <h1>CONTATO</h1>
-        <SecaoContato />
+        <main id='Contato' className='centralizar flex'>
+          <div className="container limitar-div centralizar flex">
+
+            <h1>Entre em <span>contato</span> conosco</h1>
+            <Formulario />
+          </div>
+        </main>
       </EstruturaPagina >
     </>
   )

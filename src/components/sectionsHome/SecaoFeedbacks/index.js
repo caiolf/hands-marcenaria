@@ -7,7 +7,7 @@ import EstruturaSecao from '../EstruturaSecao';
 export default function SecaoFeedbacks() {
   return (
     <section id='SecaoFeedbacks' className='SecaoFeedbacks flex'>
-      <EstruturaSecao titulo='FEEDBACKS'>
+      <EstruturaSecao titulo='Feedbacks'>
         <div className="celulares flex-row centralizar">
           <Celular>Incrível!!! Trabalho muito bem feito, atendeu todas as minhas necessidades.</Celular>
           <Celular>Atendimento excelente! profissionais muito competentes e habilidosos.</Celular>

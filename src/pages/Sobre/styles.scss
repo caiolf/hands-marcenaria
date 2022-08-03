@@ -1,0 +1,32 @@
+#Sobre {
+	.container {
+		margin: 20px 10px;
+		padding: 10px;
+		border-radius: 20px;
+	}
+	section {
+		padding: 40px 0;
+	}
+
+	span {
+		color: var(--color2);
+	}
+	p {
+		width: 60%;
+		padding: 0 30px 20px 30px;
+	}
+	.imagem {
+		width: 500px;
+
+		background-size: cover;
+		background-position: center;
+	}
+	.imagem1 {
+		border-radius: 30% 70% 70% 30% / 30% 36% 64% 70%;
+		background-image: url("https://img.freepik.com/free-photo/smiling-male-carpenter-wearing-safety-glasses-standing-front-workbench-with-his-arm-crossed_23-2147944931.jpg?w=900&t=st=1659548933~exp=1659549533~hmac=86656f3fdc60a48a5643a01bc8b3f3b2fd9d3644ca56c04c7b5d3490d4dc8d67");
+	}
+	.imagem2 {
+		border-radius: 29% 71% 68% 32% / 21% 57% 43% 79%;
+		background-image: url("https://img.freepik.com/free-photo/close-up-woman-drawing-project_23-2148903474.jpg?w=900&t=st=1659553922~exp=1659554522~hmac=1c2f3f64579a16b8e6a9c37215aa58889c617e64636199018a6f18e9554fd1bb");
+	}
+}
