@@ -28,9 +28,11 @@ export default function Rodape() {
           </div>
         </div>
         <p className='copyright'>
-          Copyright © 2022 HANDS Marcenaria | Todos os direitos reservados | Desenvolvido de 🖤 por{' '}
-          <a href="https://caiolf.github.io/Projeto-Linktree/" target='_blank'>@caiolf</a>
+          Copyright © 2022 HANDS Marcenaria | Todos os direitos reservados | Desenvolvido por{' '}
+          <a href="https://caiolf.github.io/Projeto-Linktree/" target='_blank'><img src="./assets/icon-caio-branco.png" alt="asdas" /></a>
+
         </p>
+
       </div>
 
     </footer >
